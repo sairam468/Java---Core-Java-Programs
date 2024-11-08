@@ -1,0 +1,12 @@
+package sai;
+
+public class Mobile {
+
+	public void call(SimCard sim) {
+		System.out.println((sim.getSim()).s);
+	}
+	public static void main(String[] args) {
+		Mobile mi=new Mobile();
+		mi.call(new JioSim());
+	}
+}
